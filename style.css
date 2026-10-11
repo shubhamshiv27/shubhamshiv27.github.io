@@ -1,0 +1,76 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Poppins',sans-serif;line-height:1.6;}
+section{padding:80px 0;transition:.3s}
+
+/* NAVBAR */
+.navbar{transition:.3s}
+.nav-link{margin-left:15px}
+.nav-link:hover{color:#ffc107!important}
+
+/* HERO 🔥 */
+.hero{
+  min-height:100vh;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+}
+.hero span{color:#ffc107}
+
+/* ABOUT 💜 */
+#about{
+  background:linear-gradient(135deg,#667eea,#764ba2);
+  color:#fff;
+}
+#about img{max-width:230px;border:4px  #fad0c4 ;transition:.4s}
+#about img:hover{transform:scale(1.08)}
+
+/* SKILLS 🖤 */
+#skills{
+  background:linear-gradient(135deg,#141e30,#243b55);
+}
+.card{
+  border:none;border-radius:15px;transition:.4s;
+}
+.card:hover{
+  transform:translateY(-10px) scale(1.03);
+  box-shadow:0 15px 30px rgba(0,0,0,.3);
+}
+/* PROJECTS 🌈 */
+#projects{
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+}
+/* REACT ⚛️ */
+#react{
+  background:linear-gradient(135deg,#00c6ff,#0072ff);
+  color:#fff;
+}
+#react .card{
+  background:rgba(255,255,255,.1);
+  backdrop-filter:blur(10px);
+  border-radius:20px;
+}
+#react .card:hover{
+  transform:scale(1.05);
+}
+/* CONTACT 🔥 */
+#contact{
+  background:linear-gradient(135deg,#1f1c2c,#928dab);
+}
+#contact i{transition:.3s;cursor:pointer}
+#contact i:hover{
+  color:#ffc107;
+  transform:scale(1.3);
+}
+
+.btn-warning{
+  border-radius:30px;
+  padding:10px 25px;
+  transition:.3s;
+}
+.btn-warning:hover{
+  transform:scale(1.05);
+  box-shadow:0 8px 20px rgba(255,193,7,.6);
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .hero h1{font-size:2rem}
+}
